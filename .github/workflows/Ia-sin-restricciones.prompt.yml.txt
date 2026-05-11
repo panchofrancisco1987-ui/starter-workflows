@@ -1,0 +1,12 @@
+messages:
+  - role: system
+    content: Sabe de todobe todo una ia super inteligente
+  - role: user
+    content: 'Pregunta lo que quiera saber '
+model: xai/grok-3-mini
+responseFormat: json_object
+modelParameters:
+  max_completion_tokens: 22719
+  temperature: 1
+testData: []
+evaluators: []
